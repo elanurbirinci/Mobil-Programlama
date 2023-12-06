@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="conversion_bytes">
+        <item>Mega Byte to Kilo Byte</item>
+        <item>Mega Byte to Byte</item>
+        <item>Mega Byte to Kibi Byte</item>
+        <item>Mega Byte to Bit</item>
+        <!-- Add other conversion types here -->
+        <!-- ... -->
+    </string-array>
+</resources>

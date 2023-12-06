@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/minEditText"
+        android:layout_width="378dp"
+        android:layout_height="70dp"
+        android:hint="Min Değer" />
+
+    <EditText
+        android:id="@+id/maxEditText"
+        android:layout_width="387dp"
+        android:layout_height="77dp"
+        android:layout_below="@id/minEditText"
+        android:layout_marginTop="6dp"
+        android:hint="Max Değer" />
+
+    <EditText
+        android:id="@+id/countEditText"
+        android:layout_width="378dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/maxEditText"
+        android:layout_marginTop="8dp"
+        android:hint="Kaç Adet" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countEditText"
+        android:layout_marginTop="16dp"
+        android:text=" Oluştur" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/generateButton"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/percentageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

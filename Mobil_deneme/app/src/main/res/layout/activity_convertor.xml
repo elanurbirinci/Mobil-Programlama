@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:hint="Enter value"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Spinner
+        android:id="@+id/conversionSpinner"
+        android:layout_width="334dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/inputEditText"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="536dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/conversionSpinner"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="148dp"
+        android:text="Result: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_convertor"
+        android:layout_width="177dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="116dp"
+        android:text="Convertor"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_Decimal"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="Decimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputEditText2"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:hint="Enter value"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <Spinner
+        android:id="@+id/conversionSpinner2"
+        android:layout_width="334dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/inputEditText"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/resultTextView2"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/conversionSpinner2"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="148dp"
+        android:text="Result: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Byte"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="296dp"
+        android:gravity="center"
+        android:text="Byte"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputCelsius"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="168dp"
+        android:hint="Enter Celsius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/conversionTypeGroup"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="120dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonFahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Fahrenheit" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelvin" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/resultTextView3"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/conversionTypeGroup"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="36dp"
+        android:text="Result: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="176dp"
+        android:gravity="center"
+        android:text="Celcius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

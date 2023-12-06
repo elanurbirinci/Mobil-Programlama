@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mobil_deneme</string>
+    <string name="app">UnitConverter</string>
+    <string-array name="conversion_types">
+        <item>Decimal to Binary</item>
+        <item>Decimal to Octal</item>
+        <item>Decimal to Hexadecimal</item>
+        <!-- Add other conversion types here -->
+        <!-- ... -->
+    </string-array>
+
+
+
+
+
+</resources>
